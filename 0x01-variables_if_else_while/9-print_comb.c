@@ -2,12 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-
 /**
-*main: entry point
-*Description:This program prints possible combination
-*Parameters: using only putchar function
+*Main: entry point
+*Description- prints
+*Parameter: use only putchar function
 *Return: 0 if successful
 */
 
