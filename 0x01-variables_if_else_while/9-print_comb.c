@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-*Main: entry point
-*Description- prints
-*Parameter: use only putchar function
-*Return: 0 if successful
+* main -  Entry Point
+* Description- prints all possible combinations of single-digit numbers
+* Parameter: use only putchar function
+* Return: 0 if successful
 */
 
 
