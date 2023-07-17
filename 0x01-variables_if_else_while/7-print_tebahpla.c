@@ -10,10 +10,10 @@
 
 int main(void)
 {
- char rev;
+char rev;
 
 	for (rev = 'z'; rev >= 'a'; rev--)
-	{	
+	{
 	putchar(rev);
 	}
 	putchar('\n');
