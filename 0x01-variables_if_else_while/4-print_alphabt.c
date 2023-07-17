@@ -2,6 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+*main-Entry point
+*Description- prints the alphabet in lowercase
+*Return: 0(If successful)
+*/
+
 int main(void)
 {
 
