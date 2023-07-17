@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
-* main: Entry point
-* Description- prints all single digit numbers of base 10 starting from 0
-* Parameter: use only putchar function
-* Return: 0(if successful)
+*main-Entry point
+*Description- print single digit number
+*Return: 0(If successful)
 */
 
 int main(void)
