@@ -1,1 +1,1 @@
-low leveling learning
+learning more on pointers, array and string
