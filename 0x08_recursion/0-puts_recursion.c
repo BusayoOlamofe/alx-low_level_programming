@@ -1,15 +1,15 @@
 #include "main.h"
-/*
-*print string in reverse
- *
- * * Return 0 if sucessful
+/**
+ *  * _print string
+ *   * @s: input
+ *    * Return 0 if succesful
  *     */
 void _puts_recursion(char *s)
 {
 	if (*s)
 	{
-	_puts_rev_recursion(s + 1);
 	_putchar(*s);
+	_puts_recursion(s + 1);
 	}
 
 	else
