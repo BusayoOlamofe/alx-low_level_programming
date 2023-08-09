@@ -14,13 +14,13 @@ char *_strdup(char *str)
 	int p, q = 0;
 
 	if (str == NULL)
-		return (NULL)
+		return (NULL);
 	
-	i = 0;
+	p = 0;
 
-	while (str[i] != '\0')
+	while (str[p] != '\0')
 		
-		i++;
+		p++;
 
 
 	space = malloc(sizeof(char) * (p + 1));

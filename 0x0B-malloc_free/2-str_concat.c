@@ -7,45 +7,43 @@
  * @s2: input two to concat
  * Return: concat of s1 and s2
  */
-
-
 char *str_concat(char *s1, char *s2)
 {
 	char *concat;
 	int p = 0;
 	int q = 0;
+	int t = 0;
+	int y = 0;
 
 	if  (s1 == NULL)
 		s1  = "";
 
 	if (s2 == NULL)
 		s2 = "";
-	
-	for (p = 0; s1[p] != '\0'; p++)
 
-	for (q = 0; s2[q] != '\0'; q++)
+	while (s1[p] != '\0')
+		p++;
+
+	while (s2[q] != '\0')
+		q++;
 
 		concat = malloc(sizeof(char) * (q + p + 1));
 
 	if (concat == NULL)
 		return (NULL);
 
-	while (s1[p] != '\0')
-
+	while (t <= p)
 	{
-		concat[p] = s1[p];
-			p++;
+		concat[t] = s1[t];
+			t++;
 	}
 
-	while (s2[q] != '\0')
-
+	while (t < (q + p + 1))
 	{
-	concat[p] = s2[q];
-	p++, q++;
+		concat[t] = s2[y];
+		t++, y++;
 	}
 
 	concat[p] = '\0';
-
-	return (concat);		
+	return (concat);
 }
-	
